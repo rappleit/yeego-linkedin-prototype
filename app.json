@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "yeego-linkedin-prototype",
-    "slug": "yeego-linkedin-prototype",
+    "slug": "yeego-prototype",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ormiapp.yeegolinkedinprototype"
     },
     "web": {
       "bundler": "metro",
@@ -33,10 +34,18 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "95f61149-9d88-4fd1-8d21-a30170a13909"
+      }
+    },
+    "owner": "rappleit"
   }
 }
